@@ -1,0 +1,303 @@
+{
+    "testdata":[
+        {
+            "_id":"1",
+            "heading":"Test note",
+            "content":"this is just a content nothing much to it all the data is just being collected in the following manner that you are not ware of",
+            "tag":"meeting",
+            "date":"2024-4-29",
+            "location":"my notes/folder 1",
+            "userID":"1",
+            "status":"active",
+            "color":"green"
+        },
+        {
+            "_id":"2",
+            "heading":"Client meeting review",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore eius repellat autem dolorum consequuntur atque!",
+            "tag":"meeting",
+            "date":"2024-4-29",
+            "location":"my notes",
+            "userID":"5",
+            "status":"archive",
+            "color":"blue"
+        },
+        {
+            "_id":"3",
+            "heading":"Jokes on how meeting went",
+            "content":"The presentator was not able to spell gospel and keep saying go-fel because he swoollen wound on the lips",
+            "tag":"meeting",
+            "date":"2024-4-29",
+            "location":"my notes/folder 2",
+            "userID":"2",
+            "status":"active",
+            "color":"red"
+        },
+        {
+            "_id":"4",
+            "heading":"Deadlines mentioned in the meeting",
+            "content":"25 changes in the project and this month is the deadline, the project is just too huge and too buggy",
+            "tag":"meeting",
+            "date":"2024-4-29",
+            "location":"projects",
+            "userID":"4",
+            "status":"active",
+            "color":"yellow"
+        },
+        {
+            "_id":"5",
+            "heading":"We went to battle royal playground event",
+            "content":"We were assigned to do things on the event as we were the one to organie such event, many people came to the event and it was a massive success so much so that we have to call backup on the event day from our colleagues to help handle the crowd, whatever happened the event was a huge success and we are happy about.",
+            "tag":"playground",
+            "date":"2024-5-1",
+            "location":"journal",
+            "userID":"3",
+            "status":"active",
+            "color":"yellow"
+        },
+        {
+            "_id":"6",
+            "heading":"Tester's note",
+            "content":"The overall design is okay but need to add some smooth transition to the actions being performed so that it feels natural to use and people will not feel blocky",
+            "tag":"test",
+            "date":"2024-3-15",
+            "location":"my attachments",
+            "userID":"1",
+            "status":"archive",
+            "color":"red"
+        },
+        {
+            "_id":"7",
+            "heading":"Client meeting review",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore eius repellat autem dolorum consequuntur atque!",
+            "tag":"weekly",
+            "date":"2024-5-6",
+            "location":"my notes",
+            "userID":"1",
+            "status":"trash",
+            "color":"yellow"
+        },
+        {
+            "_id":"8",
+            "heading":"Client meeting review",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore eius repellat autem dolorum consequuntur atque!",
+            "tag":"2daybefore",
+            "date":"2024-5-10",
+            "location":"my notes",
+            "userID":"1",
+            "status":"archive",
+            "color":"blue"
+        },
+        {
+            "_id":"9",
+            "heading":"Client meeting review",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore eius repellat autem dolorum consequuntur atque!",
+            "tag":"monthly",
+            "date":"2024-4-13",
+            "location":"my notes",
+            "userID":"1",
+            "status":"trash",
+            "color":"green"
+        },
+        {
+            "_id":"10",
+            "heading":"Client meeting review",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempore eius repellat autem dolorum consequuntur atque!",
+            "tag":"today",
+            "date":"2024-5-12",
+            "location":"my notes",
+            "userID":"1",
+            "status":"archive",
+            "color":"yellow"
+        },
+        {
+            "_id":"11",
+            "heading":"Test note",
+            "content":"this is just a content nothing much to it all the data is just being collected in the following manner that you are not ware of",
+            "tag":"meeting",
+            "date":"2024-5-20",
+            "location":"my notes",
+            "userID":"1",
+            "status":"active",
+            "color":"red"
+        },
+        {
+            "_id":"12",
+            "heading":"End Test note",
+            "content":"this is just a content nothing much to it all the data is just being collected in the following manner that you are not ware of",
+            "tag":"meeting",
+            "date":"2024-5-24",
+            "location":"my notes",
+            "userID":"1",
+            "status":"active",
+            "color":"green"
+        },
+        {
+            "_id":"13",
+            "heading":"Start Test note",
+            "content":"this is just a content nothing much to it all the data is just being collected in the following manner that you are not ware of",
+            "tag":"meeting",
+            "date":"2024-5-19",
+            "location":"my notes",
+            "userID":"5",
+            "status":"active",
+            "color":"yellow"
+        },
+        {
+            "_id":"14",
+            "heading":"Test note",
+            "content":"this is just a content nothing much to it all the data is just being collected in the following manner that you are not ware of",
+            "tag":"meeting",
+            "date":"2024-5-26",
+            "location":"my notes",
+            "userID":"4",
+            "status":"active",
+            "color":"yellow"
+        },
+        {
+            "_id":"15",
+            "heading":"Phantom Bug",
+            "content":"",
+            "tag":"today",
+            "date":"2024-5-20",
+            "location":"my notes",
+            "userID":"5",
+            "status":"active",
+            "color":"yellow"
+        }
+    ],
+    "bookdata":[
+        {
+            "_id":"1",
+            "name":"My Notes",
+            "userID":"1"
+        },
+        {
+            "_id":"2",
+            "name":"My Attachments",
+            "userID":"2"
+        },
+        {
+            "_id":"3",
+            "name":"Projects",
+            "userID":"3"
+        },
+        {
+            "_id":"4",
+            "name":"Journal",
+            "userID":"4"
+        },
+        {
+            "_id":"5",
+            "name":"Assignments",
+            "userID":"5"
+        }
+    ],
+    "folderlist":[
+        {
+            "_id":"1",
+            "name":"folder 1",
+            "location":"my notes",
+            "userID":"1"
+        },
+        {
+            "_id":"2",
+            "name":"folder 2",
+            "location":"my notes/folder 1",
+            "userID":"1"
+        },
+        {
+            "_id":"3",
+            "name":"folder 3",
+            "location":"my notes/folder 1/folder 2",
+            "userID":"1"
+        },
+        {
+            "_id":"4",
+            "name":"folder 4",
+            "location":"my notes",
+            "userID":"5"
+        },
+        {
+            "_id":"5",
+            "name":"folder 5",
+            "location":"my notes",
+            "userID":"4"
+        },
+        {
+            "_id":"6",
+            "name":"folder 6",
+            "location":"my notes",
+            "userID":"3"
+        },
+        {
+            "_id":"7",
+            "name":"folder 7",
+            "location":"my notes/folder 6",
+            "userID":"3"
+        },
+        {
+            "_id":"8",
+            "name":"folder 8",
+            "location":"project",
+            "userID":"2"
+        },
+        {
+            "_id":"9",
+            "name":"folder 9",
+            "location":"journal",
+            "userID":"2"
+        },
+        {
+            "_id":"10",
+            "name":"folder 10",
+            "location":"journal",
+            "userID":"4"
+        },
+        {
+            "_id":"11",
+            "name":"folder 11",
+            "location":"assignments",
+            "userID":"5"
+        },
+        {
+            "_id":"12",
+            "name":"folder 12",
+            "location":"project",
+            "userID":"3"
+        }
+    ],
+    "logindata":[
+        {
+            "uname":"adarsh",
+            "passw":"password",
+            "email":"kuchtoh@kuchmail.com",
+            "_id":1
+        },
+        {
+            "uname":"manish",
+            "passw":"asdfj",
+            "email":"kuchtoh@kuchmail.com",
+            "_id":2
+        },
+        {
+            "uname":"kanha",
+            "passw":"qwerty",
+            "email":"kuchtoh@kuchmail.com",
+            "_id":3
+        },
+        {
+            "uname":"rakesh",
+            "passw":"asswordp",
+            "email":"kuchtoh@kuchmail.com",
+            "_id":4
+        },
+        {
+            "uname":"priti",
+            "passw":"password",
+            "email":"kuchtoh@kuchmail.com",
+            "_id":5
+        }
+        
+    ]
+}
